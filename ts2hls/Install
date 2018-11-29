@@ -1,0 +1,8 @@
+#!/bin/bash
+./genSo.sh
+./ts2hls.py
+python -O -m py_compile ts2hls.py
+mv ts2hls.pyo ts2hls
+chmod +x ts2hls
+rm -rf *.py
+
