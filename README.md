@@ -1,13 +1,20 @@
-#udpts
+# udpush
 
-UDPUSH is a Python script used to push TS File Over UDP .
-and then output HLS 
+**udpush is a Python script used to push TS File Over UDP**    
 
-##Useage
-./udpush.py -f InputFile1.ts  InputFile2.ts -h 192.168.0.2 -p 1234
--f Input Files' name
--d Destination Computer's IP address
+## Useage  
+
+**Example:**  
+
+./udpush.py -f InputFile1.ts  InputFile2.ts -d 192.168.0.2 -p 1234  
+
+-f Input Files' name  
+
+-d Destination Computer's IP address  
+
 -p Destination Computer's port 
+
+-h print help infomation  
 
 any amount of donation is appreciated !
 
