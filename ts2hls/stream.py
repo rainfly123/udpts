@@ -80,7 +80,7 @@ class PROGRAM :
             self.last_pts = PTS
             return
 
-        if ((IDR == True) & (PTS >= (self.last_pts + 50000 * 10))):
+        if ((IDR == True) & (PTS >= (self.last_pts + 90000 * 10))):
             duration = (PTS - self.last_pts) / 90000.0
             self.ts_fd.close()
             self.ts_files.append((self.ts_name, duration))
