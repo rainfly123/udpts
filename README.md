@@ -1,6 +1,6 @@
 # udpush
 
-***udpush is a Python script used to push TS File Over UDP  ***    
+*** udpush is a Python script used to push TS File Over UDP  ***    
 
 ## Useage  
 
