@@ -130,7 +130,7 @@ def gen_key():
 
 #300 seconds
 TIME = 240
-KEY = "c8aa26993ba850ba5da86eab41a84aab1babfcba"
+KEY = "26993ba850ba5da86bfcba"
 
 def Sign_URL(url):
     return sign_time(KEY, url, TIME)
